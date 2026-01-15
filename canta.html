@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler - Manolya Hobi Evi</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="anasayfa.css">     
+    <link rel="stylesheet" href="urunler.css">  
+
+</head>
+<body>
+
+    
+<div class="navbar">
+
+    <div class="left-area">
+        <div class="logo"><i>🌸Manolya Hobievi</i></div>
+
+        <div class="menu">
+
+            <a href="anasayfa.html">Anasayfa</a>
+        
+            <div class="dropdown-menu-container">
+                <a class="menu-main" href="">Ürünler</a>
+
+                <div class="dropdown-menu">
+                    <a href="amigurumi.html">Amigurumi</a>
+                    <a href="atki-eldiven.html">Atkı & Eldiven</a>
+                    <a href="canta.html">Çanta</a>
+                    <a href="bebek-hirkasi.html">Bebek Hırkası</a>
+                </div>
+            </div>
+
+            <a href="hakkimda.html" class="active">Hakkımızda</a>
+            <a href="iletisim.html">İletişim</a>
+
+        </div>
+    </div>
+
+        <div class="icon-box">
+
+        <div class="cart-icon">
+            <i class="bi bi-cart"></i>
+            <span id="cart-count">0</span>
+
+            <div class="cart-dropdown">
+                <ul id="cart-items"></ul>
+                <p id="cart-total"></p>
+                <button id="clear-cart">Sepeti Temizle</button>
+            </div>
+        </div>
+
+       
+        <div class="user-icon">
+            <i class="bi bi-person-fill"></i>
+            <div class="dropdown">
+                <a href="login.html">Giriş Yap</a>
+                <a href="hesapolustur.html">Hesap Oluşturun</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <section class="products">
+        <h1>Çantalar</h1>
+        <div class="product-grid">
+
+            <div class="product" data-name="Gül motifli çanta" data-price="500">
+                <img src="canta/bag1.jpg" alt="Gül motifli çanta" class="product-img">
+                <h3>Gül motifli çanta</h3>
+                <p>₺500</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Yıldız çanta" data-price="400">
+                <img src="canta/bag2.jpg" alt="Yıldız çanta" class="product-img">
+                <h3>Yıldız çanta</h3>
+                <p>₺400</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Vintage çanta" data-price="530">
+                <img src="canta/bag3.jpg" alt="Vintage çanta" class="product-img">
+                <h3>Vintage çanta</h3>
+                <p>₺530</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Lale çanta" data-price="460">
+                <img src="canta/bag4.jpg" alt="Lale çanta" class="product-img">
+                <h3>Lale çanta</h3>
+                <p>₺460</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Popcorn çanta" data-price="500">
+                <img src="canta/bag5.jpg" alt="Popcorn çanta" class="product-img">
+                <h3>Popcorn çanta</h3>
+                <p>₺500</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Mini kalp çanta" data-price="450">
+                <img src="canta/bag6.jpg" alt="Mini kalp çanta" class="product-img">
+                <h3>Mini kalp çanta</h3>
+                <p>₺450</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Renkli motif çanta" data-price="400">
+                <img src="canta/bag7.jpg" alt="Renkli motif çanta" class="product-img">
+                <h3>Renkli motif çanta</h3>
+                <p>₺400</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Kahverengi motif çanta" data-price="550">
+                <img src="canta/bag8.jpg" alt="Kahverengi motif çanta" class="product-img">
+                <h3>Kahverengi motif çanta</h3>
+                <p>₺550</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Çiçek motif çanta" data-price="500">
+                <img src="canta/bag9.jpg" alt="Çiçek motif çanta" class="product-img">
+                <h3>Çiçek motif çanta</h3>
+                <p>₺500</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+            <div class="product" data-name="Çiçek çanta" data-price="400">
+                <img src="canta/bag10.jpg" alt="Çiçek çanta" class="product-img">
+                <h3>Çiçek çanta</h3>
+                <p>₺400</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+
+    </section>
+
+ 
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="">
+    </div>
+
+
+    <footer style="background-color: black; color: aliceblue;">
+        <hr>
+        <pre>
+            Author:Zeynep
+            © 2025 Manolya Hobievi
+            <a href="mailto:zeynepbetul234@gmail.com" style="color: aliceblue;">zeynepbetul234@gmail.com</a>
+        </pre>
+    </footer>
+
+    
+    <script src="urunler.js"></script>
+    
+</body>
+</html>

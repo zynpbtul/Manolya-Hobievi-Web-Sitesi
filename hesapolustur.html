@@ -103,12 +103,24 @@
             <input type="password" placeholder="Şifre Tekrar">
         </div>
 
-        <button class="register-btn">Kayıt Ol</button>
+        <button class="register-btn" onclick="hesapOlustur()">Kayıt Ol</button>
+
 
         <div class="login-link">
             Zaten hesabınız var mı? <a href="login.html">Giriş Yapın</a>
         </div>
     </div>
+
+    <script>
+    function hesapOlustur() {
+        alert("Hesap başarıyla oluşturuldu!");
+        window.location.href = "login.html"; // Giriş sayfasına yönlendir
+    }
+    </script>
+    
+    
+
+
 
 </body>
 </html>

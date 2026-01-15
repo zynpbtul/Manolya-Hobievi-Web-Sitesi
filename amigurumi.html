@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler - Manolya Hobi Evi</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="anasayfa.css">     
+    <link rel="stylesheet" href="urunler.css">  
+
+</head>
+<body>
+
+<div class="navbar">
+
+    <div class="left-area">
+        <div class="logo"><i>🌸Manolya Hobievi</i></div>
+
+        <div class="menu">
+
+            <a href="anasayfa.html">Anasayfa</a>
+        
+            <div class="dropdown-menu-container">
+                <a class="menu-main" href="">Ürünler</a>
+
+                <div class="dropdown-menu">
+                    <a href="amigurumi.html">Amigurumi</a>
+                    <a href="atki-eldiven.html">Atkı & Eldiven</a>
+                    <a href="canta.html">Çanta</a>
+                    <a href="bebek-hirkasi.html">Bebek Hırkası</a>
+                </div>
+            </div>
+
+            <a href="hakkimda.html" class="active">Hakkımızda</a>
+            <a href="iletisim.html">İletişim</a>
+
+            
+
+
+        </div>
+    </div>
+
+        <div class="icon-box">
+
+
+        <div class="cart-icon">
+            <i class="bi bi-cart"></i>
+            <span id="cart-count">0</span>
+
+            <div class="cart-dropdown">
+                <ul id="cart-items"></ul>
+                <p id="cart-total"></p>
+                <button id="clear-cart">Sepeti Temizle</button>
+            </div>
+        </div>
+
+        <div class="user-icon">
+            <i class="bi bi-person-fill"></i>
+            <div class="dropdown">
+                <a href="login.html">Giriş Yap</a>
+                <a href="hesapolustur.html">Hesap Oluşturun</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section class="products">
+    <h1>Amigurumiler</h1>
+    <div class="product-grid">
+
+        <div class="product" data-name="Aksesuarlı tavşan" data-price="250">
+            <img src="amigurumi/c1.jpg" alt="Aksesuarlı tavşan" class="product-img">
+            <h3>Aksesuarlı tavşan</h3>
+            <p>₺250</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Çilek" data-price="150">
+            <img src="amigurumi/c2.jpg" alt="Çilek" class="product-img">
+            <h3>Çilek</h3>
+            <p>₺150</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Pelerinli kedi" data-price="250">
+            <img src="amigurumi/c3.jpg" alt="Pelerinli kedi" class="product-img">
+            <h3>Pelerinli kedi</h3>
+            <p>₺250</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Balık şapkalı kedi" data-price="200">
+            <img src="amigurumi/c4.jpg" alt="Balık şapkalı kedi" class="product-img">
+            <h3>Balık şapkalı kedi</h3>
+            <p>₺200</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Mini patiler" data-price="200">
+            <img src="amigurumi/c5.jpg" alt="Mini patiler" class="product-img">
+            <h3>Mini patiler</h3>
+            <p>₺200</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Minik ayılar" data-price="200">
+            <img src="amigurumi/c6.jpg" alt="Minik ayılar" class="product-img">
+            <h3>Minik ayılar</h3>
+            <p>₺200</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Pembe fiyonk" data-price="100">
+            <img src="amigurumi/c7.jpg" alt="Pembe fiyonk" class="product-img">
+            <h3>Pembe fiyonk</h3>
+            <p>₺100</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Mini denizanası" data-price="200">
+            <img src="amigurumi/c8.jpg" alt="Mini denizanası" class="product-img">
+            <h3>Mini denizanası</h3>
+            <p>₺200</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Aşçı civciv" data-price="200">
+            <img src="amigurumi/c9.jpg" alt="Aşçı civciv" class="product-img">
+            <h3>Aşçı civciv</h3>
+            <p>₺200</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+        <div class="product" data-name="Mini tavşan" data-price="200">
+            <img src="amigurumi/c10.jpg" alt="Mini tavşan" class="product-img">
+            <h3>Mini tavşan</h3>
+            <p>₺200</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+        </div>
+
+    </div>
+</section>
+
+
+ 
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="">
+    </div>
+
+
+    <footer style="background-color: black; color: aliceblue;">
+        <hr>
+        <pre>
+            Author:Zeynep
+            © 2025 Manolya Hobievi
+            <a href="mailto:zeynepbetul234@gmail.com" style="color: aliceblue;">zeynepbetul234@gmail.com</a>
+        </pre>
+    </footer>
+
+    
+    <script src="urunler.js"></script>
+    
+</body>
+</html>
