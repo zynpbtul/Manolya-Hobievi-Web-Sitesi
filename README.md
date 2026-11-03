@@ -1,85 +1,29 @@
-# Manolya Hobievi | E-Ticaret Web Uygulaması
+# Manolya Hobievi – El Emeği Ürünler Web Sitesi
 
 ## Proje Hakkında
 
-Manolya Hobievi, el emeği örgü ve amigurumi ürünlerinin dijital ortamda sergilenmesi ve kullanıcıların ürünleri inceleyerek alışveriş deneyimi yaşayabilmesi amacıyla geliştirilmiş çok sayfalı bir e-ticaret web uygulamasıdır.
-
-Üniversite Web Tasarımı dersi kapsamında geliştirilen bu proje; kullanıcı dostu arayüz tasarımı, ürün kategorilerinin düzenlenmesi, etkileşimli web bileşenlerinin oluşturulması ve istemci tarafında veri yönetimi konularını kapsamaktadır.
-
-## Temel Özellikler
-
-- **Ürün Kataloğu:** Amigurumi, atkı-eldiven, çanta ve bebek hırkası kategorilerinde ürün listeleme.
-- **Etkileşimli Kullanıcı Arayüzü:** Sayfalar arasında kolay gezinme sağlayan düzenli navigasyon yapısı.
-- **Alışveriş Sepeti:** Ürün ekleme, sepet içeriğini görüntüleme, toplam tutarı hesaplama ve sepeti temizleme işlemleri.
-- **Veri Saklama:** Alışveriş sepeti bilgilerinin tarayıcı üzerinde localStorage kullanılarak saklanması.
-- **Ürün Görsel Galerisi:** Lightbox özelliği ile ürün görsellerini detaylı görüntüleme.
-- **Kullanıcı Arayüzleri:** Giriş yapma ve hesap oluşturma sayfaları.
-- **Bilgilendirme Sayfaları:** Hakkımızda ve iletişim sayfaları.
+Manolya Hobievi, el örgüsü ve amigurumi ürünlerinin sergilendiği, HTML, CSS ve JavaScript kullanılarak geliştirilmiş bir e-ticaret web sitesi projesidir. Kullanıcıların ürünleri inceleyebileceği, sepete ekleyebileceği ve site içerisinde gezinebileceği bir arayüz tasarlanmıştır.
 
 ## Kullanılan Teknolojiler
 
-| Teknoloji | Kullanım Amacı |
-|---|---|
-| HTML5 | Web sayfalarının yapısının oluşturulması |
-| CSS3 | Tasarım, sayfa düzeni ve görsel biçimlendirme |
-| JavaScript | Dinamik ve etkileşimli işlevlerin geliştirilmesi |
-| Bootstrap Icons | Kullanıcı arayüzünde ikon kullanımı |
-| localStorage | Sepet bilgilerinin tarayıcıda saklanması |
+- **HTML5:** Sayfa yapısı
+- **CSS3:** Tasarım ve düzen
+- **JavaScript:** Dinamik özellikler ve kullanıcı etkileşimleri
+- **Bootstrap Icons:** Arayüz ikonları
+- **LocalStorage:** Sepet bilgilerinin tarayıcıda saklanması
 
-## Proje Yapısı
+## Temel Özellikler
 
-Uygulama, farklı işlevlere sahip birden fazla web sayfasından oluşmaktadır:
-
-| Dosya | Açıklama |
-|---|---|
-| `anasayfa.html` | Ana sayfa |
-| `urunler.html` | Ürün kataloğu |
-| `amigurumi.html` | Amigurumi ürün kategorisi |
-| `atki-eldiven.html` | Atkı ve eldiven kategorisi |
-| `canta.html` | Çanta kategorisi |
-| `bebek-hirkasi.html` | Bebek hırkası kategorisi |
-| `hakkimda.html` | Hakkımızda sayfası |
-| `iletisim.html` | İletişim sayfası |
-| `login.html` | Kullanıcı giriş arayüzü |
-| `hesapolustur.html` | Hesap oluşturma arayüzü |
-
-## Teknik Uygulama
-
-Projenin geliştirilmesinde HTML, CSS ve JavaScript teknolojilerinden yararlanılmıştır.
-
-- HTML ile web sayfalarının yapısal bileşenleri oluşturulmuştur.
-- CSS ile sayfaların görsel tasarımı ve düzeni hazırlanmıştır.
-- JavaScript ile kullanıcı etkileşimleri ve alışveriş sepeti işlemleri gerçekleştirilmiştir.
-- localStorage kullanılarak sepet verilerinin tarayıcı oturumları arasında korunması sağlanmıştır.
-- Lightbox işlevi ile ürün görsellerinin daha detaylı incelenmesi sağlanmıştır.
-
-## Kurulum ve Çalıştırma
-
-Projeyi yerel ortamda çalıştırmak için aşağıdaki adımlar izlenebilir:
-
-1. GitHub deposunu bilgisayarınıza indirin:
-
-   ```bash
-   git clone https://github.com/zynpbtul/Manolya-Hobievi-Web-Sitesi.git
-   ```
-
-2. İndirilen proje klasörünü açın.
-3. `anasayfa.html` dosyasını bir web tarayıcısı üzerinden çalıştırın.
-4. Navigasyon menüsü aracılığıyla diğer sayfalara erişin.
-
-Projenin mevcut statik sürümünü çalıştırmak için ek bir paket kurulumu gerekmemektedir.
+- Ürün kategorileri ve ürün listeleme sayfaları.
+- Ürün görsellerini inceleme.
+- Sepete ürün ekleme ve sepet yönetimi.
+- Giriş yapma ve hesap oluşturma sayfaları.
+- İletişim ve hakkımda sayfaları.
+- Kullanıcı dostu ve pastel tonlarda tasarım.
 
 ## Kazanılan Teknik Yetkinlikler
 
-Bu proje kapsamında aşağıdaki konularda uygulamalı deneyim kazanılmıştır:
-
-- Ön yüz (Front-End) web geliştirme
-- HTML5, CSS3 ve JavaScript kullanımı
-- Kullanıcı arayüzü tasarımı ve geliştirilmesi
-- DOM manipülasyonu ve kullanıcı etkileşimleri
-- İstemci tarafında veri saklama ve yönetimi
-- Çok sayfalı web uygulaması geliştirme
-- Temel e-ticaret işlevlerinin uygulanması
+HTML, CSS ve JavaScript ile web arayüzü geliştirme, sayfalar arası bağlantı kurma, DOM işlemleri ve LocalStorage kullanımı konularında uygulamalı deneyim kazanılmıştır.
 
 ## Proje Kapsamı ve Sınırlılıklar
 
